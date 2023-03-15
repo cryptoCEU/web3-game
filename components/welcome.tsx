@@ -32,35 +32,6 @@ const Welcome: React.FC = () => {
           }}
         />
       </div>
-      <div className="flex flex-col items-center">
-        <p className="font-semibold">Share the game</p>
-        <div className="flex gap-2 mt-3">
-          <a className="border border-[#9D2889] rounded-xl leading-none h-12 w-12 flex items-center justify-center cursor-pointer">
-            <Image
-              src="/socials/twitter.svg"
-              width={24}
-              height={24}
-              alt="Twitter"
-            />
-          </a>
-          <a className="border border-[#9D2889] rounded-xl leading-none h-12 w-12 flex items-center justify-center cursor-pointer">
-            <Image
-              src="/socials/facebook.svg"
-              width={24}
-              height={24}
-              alt="Facebook"
-            />
-          </a>
-          <a className="border border-[#9D2889] rounded-xl leading-none h-12 w-12 flex items-center justify-center cursor-pointer">
-            <Image
-              src="/socials/instagram.svg"
-              width={24}
-              height={24}
-              alt="Instagram"
-            />
-          </a>
-        </div>
-      </div>
     </div>
   );
 };
