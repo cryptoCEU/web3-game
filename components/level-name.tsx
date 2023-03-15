@@ -5,11 +5,11 @@ type LevelNameProps = {
 const LevelName: React.FC<LevelNameProps> = ({ level }) => {
   switch (level) {
     case 1:
-      return <span>🐱 Small Kitten</span>;
+      return <span>Sprout</span>;
     case 2:
-      return <span>😾 Grumpy Cat</span>;
+      return <span>Plant</span>;
     case 3:
-      return <span>🥷 Ninja Cat</span>;
+      return <span>Carnivore plant</span>;
   }
 };
 
