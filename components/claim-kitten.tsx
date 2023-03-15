@@ -20,7 +20,7 @@ const ClaimKitten: React.FC = () => {
               "linear-gradient(73.59deg, #C339AC 42.64%, #CD4CB5 54%, #E173C7 77.46%)",
           }}
         >
-          Claim your kitten
+          Claim your sprout
         </span>{" "}
         to get started
       </h1>
