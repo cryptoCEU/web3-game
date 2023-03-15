@@ -16,29 +16,29 @@ type ModalProps = {
 
 const modalText = {
   1: {
-    title: "Send your cat to someone",
+    title: "Send your Sprout to someone",
     description: (
       <>
         Enter their wallet address or select a current player to transfer your{" "}
-        <span className="font-bold text-white">Kitten</span> to.
+        <span className="font-bold text-white">Sprout</span> to.
       </>
     ),
-    button: "Send Kitten",
+    button: "Send Sprout",
   },
   2: {
-    title: "Burn your cat!",
+    title: "Burn your Plant!",
     description: (
       <>
-        Burn your <span className="font-bold text-white">Grumpy Cat</span>.
+        Burn your <span className="font-bold text-white">Plant</span>.
       </>
     ),
-    button: "Burn Cat",
+    button: "Burn Plant",
   },
   3: {
-    title: "Attack another cat!",
+    title: "Attack another plant!",
     description:
       "Enter their wallet address or select a current player to attack.",
-    button: "Attack Cat",
+    button: "Attack Plant",
   },
 };
 
