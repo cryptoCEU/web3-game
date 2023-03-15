@@ -10,7 +10,7 @@ const Welcome: React.FC = () => {
           className="!bg-clip-text text-transparent"
           style={{
             background:
-              "linear-gradient(73.59deg, #C339AC 42.64%, #CD4CB5 54%, #E173C7 77.46%)",
+              "linear-gradient(73.59deg, #5F58E4 42.64%, #787CE4 54%, #787CE4 77.46%)",
           }}
         >
           Plant Attack
