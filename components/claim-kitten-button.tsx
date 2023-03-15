@@ -18,7 +18,7 @@ const ClaimKittenButton: React.FC = () => {
         onSubmit={() => setError(null)}
         onSuccess={() => refetch()}
       >
-        Claim Kitten
+        Claim Sprout
       </Web3Button>
       {error && (
         <p className="mt-2 text-xs first-letter:capitalize text-red-400 max-w-xs text-center">
